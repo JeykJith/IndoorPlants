@@ -1,0 +1,87 @@
+
+.txt-animation {
+  height:50px;
+  padding:10PX;
+}
+.txt-animation > a:link{
+	text-decoration:none;
+	}
+.txt-animation > a:hover{
+	text-decoration:none;
+	}
+h1 span {
+  position:relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce .3s ease infinite alternate;
+          animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-size: 100px;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+
+h1 span:nth-child(2) { -webkit-animation-delay: .1s; animation-delay: .1s; }
+h1 span:nth-child(3) { -webkit-animation-delay: .2s; animation-delay: .2s; }
+h1 span:nth-child(4) { -webkit-animation-delay: .3s; animation-delay: .3s; }
+h1 span:nth-child(5) { -webkit-animation-delay: .4s; animation-delay: .4s; }
+h1 span:nth-child(6) { -webkit-animation-delay: .5s; animation-delay: .5s; }
+h1 span:nth-child(7) { -webkit-animation-delay: .6s; animation-delay: .6s; }
+h1 span:nth-child(8) { -webkit-animation-delay: .7s; animation-delay: .7s; }
+h1 span:nth-child(9) { -webkit-animation-delay: .8s; animation-delay: .8s; }
+h1 span:nth-child(10) { -webkit-animation-delay: .9s; animation-delay: .9s; }
+h1 span:nth-child(11) { -webkit-animation-delay: .10s; animation-delay: .10s; }
+h1 span:nth-child(12) { -webkit-animation-delay: .11s; animation-delay: .11s; }
+h1 span:nth-child(13) { -webkit-animation-delay: .12s; animation-delay: .12s; }
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 50px 25px rgba(0, 0, 0, .2);
+  }
+}
+@media screen and (max-width: 690px){
+	h1 span {
+		font-size:65px;
+		margin-top:20px;
+		}
+		}
+@media screen and (max-width: 430px){
+	h1 span {
+		font-size:40px;
+		margin-top:30px;
+		}
+		}		

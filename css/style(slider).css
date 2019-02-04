@@ -1,0 +1,118 @@
+.carousel-item .first-imgtxt{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,0.8);
+  padding:10px 40px;
+  border:3px solid rgba(225,225,225,1);  
+}
+.carousel-item .second-imgtxt{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,0.8);
+  padding:10px;  
+}
+.carousel-item .second-imgtxt-1{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(3,178,39,1);
+  padding:10px;  
+}
+
+.carousel-item .second-imgtxt-2{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,0.8);
+  padding:10px;  
+}
+.carousel-item .second-imgtxt-3{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(3,178,39,1);
+  padding:10px;  
+}
+.carousel-item .third-imgtxt{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(3,178,39,1);
+  padding:10px;  
+}
+.carousel-item .third-imgtxt-1{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,1);
+  padding:10px;  
+}
+.carousel-item .third-imgtxt-2{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,1);
+  padding:10px;  
+}
+.carousel-item .third-imgtxt-3{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:6vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,1);
+  padding:10px;  
+}
+.carousel-item .forth-imgtxt{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:4vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(225,225,225,1);
+  padding:10px;  
+}
+.carousel-item .forth-imgtxt-1{
+  display: inline-block;
+  font-family:"Times New Roman", Times, serif;
+  font-size:2vw;
+  font-weight:700;
+  text-shadow:1px 5px 20px #333333;
+  color:rgba(255,255,255,1);
+  padding:10px;  
+}
+.carousel-item h1{
+	padding-bottom:300px;
+	}
+.carousel-item h2{
+	padding-bottom:300px;
+	}
+.carousel-item h3{
+	padding-bottom:300px;
+	}	
+.carousel-item h4{
+	padding-bottom:200px;
+	}	
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

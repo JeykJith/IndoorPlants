@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.phgallery{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 300px;
+  display: flex;
+}
+
+.img {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  transition: 1s all;
+  display: inline-block;
+}
+.img .title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-sizing: border-box;
+  transition: .75s all;
+  text-align: center;
+  opacity: 0;
+}
+
+.img:nth-child(1) {
+  background-image:url(../images/front-page-gallery-images/aloe1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img:nth-child(1):hover {
+  width: 100%;
+}
+.img:nth-child(1):hover .title {
+  opacity: 1;
+}
+
+.img:nth-child(2) {
+  background-image:url(../images/front-page-gallery-images/pothos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img:nth-child(2):hover {
+  width: 100%;
+}
+.img:nth-child(2):hover .title {
+  opacity: 1;
+}
+
+.img:nth-child(3) {
+  background-image:url(../images/front-page-gallery-images/snake-plant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img:nth-child(3):hover {
+  width: 100%;
+}
+.img:nth-child(3):hover .title {
+  opacity: 1;
+}
+
+.img:nth-child(4) {
+  background-image:url(../images/front-page-gallery-images/spider-plant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img:nth-child(4):hover {
+  width: 100%;
+}
+.img:nth-child(4):hover .title {
+  opacity: 1;
+}
+
+.img:nth-child(5) {
+  background-image:url(../images/front-page-gallery-images/succulents.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img:nth-child(5):hover {
+  width: 100%;
+}
+.img:nth-child(5):hover .title {
+  opacity: 1;
+}
