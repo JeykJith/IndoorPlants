@@ -69,7 +69,11 @@ footer.container-fluid{
 		}
 	.footer-icons .icon-1{
 		width:45px;
-		}		
+		}
+	.footer-image{
+		width:100px;
+		height:100px;
+		}
 	}
 		
 .footer-company-name{
